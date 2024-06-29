@@ -1,0 +1,58 @@
+.container {
+  margin-top: 5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.service-info {
+  display: flex;
+  /* text-align: center; */
+}
+
+.service-box {
+  padding: 2rem 2.5rem;
+  margin: 0.6rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+  flex-wrap: wrap;
+}
+
+.service-box:hover {
+  transform: scale(1.04);
+}
+
+.truck {
+  padding: 1rem;
+  background: #fff;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+}
+
+.text {
+  margin-left: 1rem;
+}
+
+.text h2 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  color: #fff;
+}
+.text h3 {
+  font-size: 1rem;
+  text-transform: capitalize;
+  color: #666;
+  margin: 0.5rem 0;
+}
+
+.text p {
+  font-size: 1rem;
+  color: #666;
+}

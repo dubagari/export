@@ -1,0 +1,90 @@
+.footer {
+  background: #022916;
+  margin-top: 6rem;
+  min-height: 30rem;
+  padding: 1rem 0;
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.item1,
+.item2,
+.item3,
+.item4 {
+  flex: 1 1 26rem;
+  padding: 2rem;
+  text-transform: capitalize;
+  text-align: start;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.item1 {
+  font-size: 1.4rem;
+}
+
+.item1 h3 {
+  font-size: 1.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 1rem;
+}
+
+.item1 p {
+  font-size: 1rem;
+  color: #e7e3e3;
+  text-transform: uppercase;
+  line-height: 1.5rem;
+}
+
+.item3 h3,
+.item4 h3 {
+  margin-top: 1rem;
+  color: #fff;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.item3 .cta {
+  color: #ffff;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  transition: 0.3s;
+}
+
+.item3 .cta:hover {
+  color: #fff;
+}
+.links {
+  margin-top: 1rem;
+}
+.links .link {
+  display: flex;
+  flex-direction: row;
+  margin: 0.5rem;
+  gap: 1rem;
+  align-items: center;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.link i {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.link h3,
+.item4 h3 {
+  font-size: 1.5rem;
+  transition: 0.3s;
+  text-align: start;
+}
+
+.link h3:hover,
+.item4 h3:hover {
+  color: #343434;
+}
