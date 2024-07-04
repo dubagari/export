@@ -1,6 +1,5 @@
-import "../component/css/Home.css";
 import hero from "../assets/hero.jpg";
-
+import "./css/Home.css";
 import ProductCart from "./cart/ProductCart";
 import Service from "../service/ServiceData";
 import { EmailService } from "../service/EmailService";
@@ -12,26 +11,24 @@ const Home = () => {
   return (
     <>
       <div className="home">
-        <h2 className="head">
-          Pure Agriculture <br />
-          Products
-        </h2>
+        <h2 className="head">Pure Agriculture Products</h2>
         <h3 className="pragraph">
           Welcome to AgroLink. We believe in better Agriculture for better
           Future
         </h3>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed modi
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia{" "}
           <br />
-          esse consequuntur voluptates consectetur cum quisquam quod at quidem
-          ipsum.
+          cumque quibusdam ducimus totam omnis fuga quisquam facere sunt
+          repellat sapiente?
         </p>
-        <div className="btn">
+
+        <div className="">
           <button className="home-btn">About us</button>
         </div>
       </div>
 
-      <section>
+      <section className="hero-container">
         <div className="hero">
           <div className="image">
             <img src={hero} alt="image" />
@@ -51,31 +48,19 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="service-info">
-            <Service />
-          </div>
+
+        <div className="service-info">
+          <Service />
         </div>
       </section>
 
-      <section className="service">
+      <section className="product">
         <h1 className="heading">products</h1>
         <ProductCart />
       </section>
-      <section className="service contact">
+      <section className="contact-info contact">
         <h1 className="contac">contact us</h1>
 
-        {/* <div className="inputbox">
-            <input type="text" placeholder="First name" />
-            <input type="text" placeholder="Second name" />
-          </div>
-          <div className="inputbox">
-            <input type="email" placeholder="Email" />
-            <input type="number" placeholder="Phone number" />
-          </div>
-
-          <textarea name="" id="" placeholder="Massage"></textarea>
-          <button className="home-btn btn">send</button> */}
         <EmailService />
       </section>
     </>

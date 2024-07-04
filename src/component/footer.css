@@ -1,7 +1,7 @@
 .footer {
   background: #022916;
   margin-top: 6rem;
-  min-height: 30rem;
+  min-height: 20rem;
   padding: 1rem 0;
 }
 
@@ -19,26 +19,32 @@
   padding: 2rem;
   text-transform: capitalize;
   text-align: start;
-  font-size: 1.4rem;
   color: #fff;
 }
 
-.item1 {
-  font-size: 1.4rem;
+.item1 h1 {
+  font-size: 1.7rem;
+}
+
+.item2 h2,
+.item3 h2,
+.item4 h2 {
+  font-size: 1.2rem;
 }
 
 .item1 h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #fff;
   text-transform: uppercase;
   margin-top: 1rem;
 }
 
 .item1 p {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: #e7e3e3;
   text-transform: uppercase;
   line-height: 1.5rem;
+  text-align: justify;
 }
 
 .item3 h3,
@@ -52,7 +58,7 @@
 .item3 .cta {
   color: #ffff;
   text-transform: capitalize;
-  font-size: 1.3rem;
+  font-size: 1rem;
   transition: 0.3s;
 }
 
@@ -72,9 +78,13 @@
   cursor: pointer;
 }
 
+.links .link h3 {
+  font-size: 1rem;
+}
+
 .link i {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .link h3,
@@ -82,6 +92,10 @@
   font-size: 1.5rem;
   transition: 0.3s;
   text-align: start;
+}
+
+.item4 h3 {
+  font-size: 1rem;
 }
 
 .link h3:hover,

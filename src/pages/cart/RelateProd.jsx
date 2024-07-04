@@ -1,12 +1,13 @@
+import "./RelateProduct.css";
+
 const RelateProd = ({ data }) => {
   return (
     <>
       <main>
-        <div className="box">
+        <div className="related-box">
           {data.map((item, index) => (
-            <div className="img" key={index}>
+            <div className="related-img" key={index}>
               <img src={item.imgUrl} alt="" />
-              <p>{item.category}</p>
             </div>
           ))}
         </div>

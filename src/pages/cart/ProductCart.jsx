@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import image1 from "../../assets/hero.jpg";
 import products from "../../assets/product";
-
+import "./ProductCart.css";
 const ProductCart = ({ data }) => {
   return (
     <div className="box-container">
@@ -13,7 +13,7 @@ const ProductCart = ({ data }) => {
             <p>{items.description}</p>
             <div>
               <Link to={`/product/product-details/${items.id}`}>
-                <button className="home-bt">product dteails</button>
+                <button className="home-bt bt-product">product dteails</button>
               </Link>
             </div>
           </div>

@@ -6,7 +6,7 @@
   top: 0;
   left: 0;
   padding: 1.7rem 10rem;
-  width: 100%;
+  min-width: 100%;
   z-index: 100;
 }
 
@@ -40,4 +40,45 @@ header .logo {
 
 header .logo span {
   color: #069c51;
+}
+
+.menu i {
+  font-size: 3rem;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 53%;
+  }
+
+  .menu i {
+    display: block;
+  }
+
+  header .nav .nav-bar {
+    width: 100%;
+    top: -100%;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background: #fff;
+    bottom: 0.1rem solid rgba(0, 0, 0, 0.3);
+    flex-flow: column;
+    padding: 2rem 0;
+  }
+
+  header .nav-bar {
+    text-align: center;
+    width: 100%;
+  }
+  header .nav-bar li {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    display: block;
+  }
 }

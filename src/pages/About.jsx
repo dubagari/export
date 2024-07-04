@@ -1,12 +1,16 @@
-import "../component/css/About.css";
-
 import image2 from "../assets/hero.jpg";
+
+import Head from "../service/Head";
+import ServiceData from "../service/ServiceData";
+import "./css/About.css";
+
 const About = () => {
   return (
     <main>
-      <section>
-        <div className="hero">
-          <div className="contain">
+      <Head title="About us" />
+      <section className="hero-container1">
+        <div className="hero1">
+          <div className="contain1">
             <h3>About us</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
@@ -17,9 +21,13 @@ const About = () => {
               Dicta totam laborum autem nesciunt ipsam perspiciatis nihil?
             </p>
           </div>
-          <div className="image">
+          <div className="image1">
             <img src={image2} alt="image" />
           </div>
+        </div>
+
+        <div className="service-info">
+          <ServiceData />
         </div>
       </section>
     </main>

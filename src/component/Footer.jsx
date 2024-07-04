@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "./css/footer.css";
+import "./footer.css";
 import { useEffect } from "react";
 
 const Footer = () => {

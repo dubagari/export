@@ -1,14 +1,15 @@
+import Head from "../service/Head";
 import ProductCart from "./cart/ProductCart";
 
 const Product = () => {
   return (
-    <section className="service">
-      <div className="product-heading">
-        <h1 className="heading">products</h1>
-      </div>
-
-      <ProductCart />
-    </section>
+    <main>
+      <Head title="products" />
+      <section className="product">
+        {/* <h1 className="heading">products</h1> */}
+        <ProductCart />
+      </section>
+    </main>
   );
 };
 

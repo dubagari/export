@@ -1,0 +1,54 @@
+.hero-container1 {
+  margin-top: 8rem;
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  padding-top: 3rem;
+}
+
+.hero1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.hero1 .image1 {
+  flex: 1 1 35rem;
+  padding: 2rem;
+  background: #022916;
+}
+
+.hero1 .image1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero1 .contain1 {
+  flex: 1 1 35rem;
+  padding: 1rem;
+}
+
+.hero1 .contain {
+  flex: 1 1 40rem;
+  padding: 4rem;
+}
+
+.hero1 .contain1 h3 {
+  font-size: 2rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+.hero1 .contain1 p {
+  font-size: 1.2rem;
+  color: #333;
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+.h1 {
+  color: red;
+}

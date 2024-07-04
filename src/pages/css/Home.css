@@ -1,0 +1,155 @@
+.home {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("../../assets/home.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.home .head {
+  font-size: 4rem;
+  color: #fff;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.home p {
+  color: #fff;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.pragraph {
+  color: #fff;
+  font-size: 1.3rem;
+  margin: 1rem;
+}
+
+.home-btn {
+  padding: 0.5rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+  color: #022916;
+  cursor: pointer;
+  transition: 0.2s all ease;
+  text-transform: uppercase;
+  border: 0.2rem solid #0c51;
+  background: #fff;
+}
+
+.home-bt {
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 5rem;
+  margin-top: 2rem;
+  color: #022916;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s all ease;
+  text-transform: uppercase;
+  border: 0.2rem solid #022916;
+  margin-bottom: 2rem;
+  background: #fff;
+}
+
+.home-btn:hover,
+.home-bt:hover {
+  background: #022916;
+  color: #fff;
+}
+
+.home {
+  padding: 1rem 2rem;
+}
+
+.hero-container {
+  margin-top: 8rem;
+  width: 80%;
+  margin: auto;
+  min-height: 100vh;
+  padding-top: 3rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.hero .image {
+  flex: 1 1 35rem;
+  padding: 2rem;
+  background: #022916;
+}
+
+.hero .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .contain {
+  flex: 1 1 35rem;
+  padding: 1rem;
+}
+
+.hero .contain {
+  flex: 1 1 40rem;
+  padding: 4rem;
+}
+
+.hero .contain h3 {
+  font-size: 2rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+.hero .contain p {
+  font-size: 1.2rem;
+  color: #333;
+  text-align: justify;
+  padding: 1rem 0;
+}
+
+.service-info {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.product {
+  text-align: center;
+  background: #022916;
+  padding-top: 3rem;
+  min-height: 100vh;
+}
+
+section .heading {
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.contact-info .contact {
+  text-align: center;
+
+  padding-top: 3rem;
+  min-height: 100vh;
+}
+
+.contact-info .contac {
+  text-transform: capitalize;
+  padding-top: 3rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #022916;
+}

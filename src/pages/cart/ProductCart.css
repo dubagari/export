@@ -1,0 +1,45 @@
+.box-container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.box-container .box {
+  width: 18rem;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin: 1rem;
+  border: 0.5rem solid #fff;
+}
+
+.box-container .box img {
+  width: 100%;
+  height: 18rem;
+  object-fit: cover;
+}
+
+.box-container .box img:hover {
+  transform: scale(0.9);
+}
+
+.box-container .box .info h3 {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  color: #069c51;
+}
+
+.box-container .box .info p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #e5e0e0;
+}
+
+.bt-product {
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+}
