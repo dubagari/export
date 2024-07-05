@@ -34,25 +34,25 @@ const Footer = () => {
                   <span>
                     <i className="ri-mail-line"></i>
                   </span>{" "}
-                  <h3>superango@gmail.com</h3>
+                  <h3>@gmail.com</h3>
                 </div>
                 <div className="link">
                   <span>
                     <i className="ri-phone-line"></i>
                   </span>{" "}
-                  <h3>+324 7036112003</h3>
+                  <h3>+233 244756175</h3>
                 </div>
                 <div className="link">
                   <span>
                     <i className="ri-map-pin-line"></i>
                   </span>{" "}
-                  <h3>Nigeria</h3>
+                  <h3>Ghana</h3>
                 </div>
                 <div className="link">
                   <span>
                     <i className="ri-links-line"></i>
                   </span>{" "}
-                  <h3>superango.com</h3>
+                  <h3>abc.com</h3>
                 </div>
               </div>
             </div>
