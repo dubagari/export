@@ -1,20 +1,21 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
 import "./Header.css";
 
 const Header = () => {
   const [navbar, setNavbar] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
   const [mobile, setMobile] = useState(false);
 
-  const toggleDropdown = () => {
-    setIsOpen(!isOpen);
+  const hideMenu = () => {
+    setMobile(false);
+    window.scrollTo(0, 10);
   };
 
   const navscroll = () => {
     if (window.scrollY >= 10) {
       setNavbar(true);
+      setMobile(false);
     } else {
       setNavbar(false);
     }
@@ -37,7 +38,7 @@ const Header = () => {
         )}
       </div>
       <div className={mobile ? "nav-mobile-link" : "nav-bar"}>
-        <ul>
+        <ul onClick={hideMenu}>
           <NavLink to="/">
             <li>Home</li>
           </NavLink>

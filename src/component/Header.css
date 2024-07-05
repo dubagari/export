@@ -6,7 +6,7 @@ header {
   top: 0;
   left: 0;
   position: fixed;
-  padding: 2rem 5rem;
+  padding: 1rem 5rem;
   z-index: 100;
 }
 
@@ -31,7 +31,7 @@ header.active {
   align-items: center;
 }
 
-.nav-bar ul li {
+.nav-bar ul a {
   margin: 0 1rem;
   font-size: 1.2rem;
   color: #fff;
@@ -48,12 +48,19 @@ header.active {
   display: none;
 }
 
+.nav-bar ul a.active,
+.nav-bar ul a:hover {
+  color: #069c51;
+  font-weight: 300;
+}
+
 @media (max-width: 768px) {
   html {
     font-size: 55%;
   }
   header {
-    padding: 2rem;
+    padding: 1rem 1.5rem;
+    z-index: 1000;
   }
 
   .header .menu {
@@ -66,7 +73,7 @@ header.active {
 
   .nav-mobile-link {
     width: 100%;
-    top: 8rem;
+    top: 5rem;
     left: 0;
     position: fixed;
     background: #fff;
@@ -80,16 +87,26 @@ header.active {
   }
 
   .nav-mobile-link ul li {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
     text-align: center;
     width: 100%;
-    font-size: 2.5rem;
-    color: #333;
+    font-size: 2rem;
+    color: #069c51;
     display: block;
   }
 
   .head {
     padding-top: 8rem;
+  }
+  /* about  */
+  .hero-container,
+  .hero-container1,
+  .product-box {
+    width: 90%;
+  }
+
+  .hero .contain {
+    padding: 1rem;
   }
 
   .hero .contain h3 {
@@ -101,6 +118,22 @@ header.active {
     padding: 0.4rem 0;
   }
 
+  /* about */
+
+  .hero1 .contain1,
+  .hero1 .image1 {
+    /* flex: 1 1 35rem; */
+    padding: 0.5rem;
+  }
+
+  .hero-container1 {
+    padding: 1rem;
+  }
+
+  .hero1 .contain {
+    padding: 1rem;
+  }
+
   .service-box {
     display: none;
   }
@@ -110,9 +143,41 @@ header.active {
     height: 10rem;
     margin: 1rem;
   }
-
+  /* product  */
   .product-box {
     width: 95%;
+  }
+
+  .box-container {
+    width: 90%;
+  }
+
+  /* form  */
+  form {
+    width: 90%;
+    margin: 0 auto;
+    margin: 2rem 1rem;
+    text-align: center;
+  }
+
+  /* details */
+
+  .product_details {
+    padding: 2rem;
+  }
+
+  .related-box {
+    width: 95%;
+  }
+
+  .related-box .related-img {
+    width: 8rem;
+    height: 10rem;
+    margin: 0.5rem;
+  }
+
+  .relate-prod {
+    padding: 2rem;
   }
 }
 

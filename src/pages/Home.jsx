@@ -3,7 +3,7 @@ import "./css/Home.css";
 import ProductCart from "./cart/ProductCart";
 import Service from "../service/ServiceData";
 import { EmailService } from "../service/EmailService";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Home = () => {
   const navigate = useNavigate();
@@ -23,9 +23,9 @@ const Home = () => {
           repellat sapiente?
         </p>
 
-        <div className="">
+        <Link to="/about">
           <button className="home-btn">About us</button>
-        </div>
+        </Link>
       </div>
 
       <section className="hero-container">
@@ -43,9 +43,7 @@ const Home = () => {
               laboriosam fugit, animi optio quisquam aspernatur consequuntur.
               Dicta totam laborum autem nesciunt ipsam perspiciatis nihil?
             </p>
-            <div>
-              <button className="home-btn">About us</button>
-            </div>
+            <div>{/* <button className="home-btn">About us</button> */}</div>
           </div>
         </div>
 
@@ -58,10 +56,11 @@ const Home = () => {
         <h1 className="heading">products</h1>
         <ProductCart />
       </section>
-      <section className="contact-info contact">
+      <section className="contact-info">
         <h1 className="contac">contact us</h1>
-
-        <EmailService />
+        <div className="email-contact">
+          <EmailService />
+        </div>
       </section>
     </>
   );

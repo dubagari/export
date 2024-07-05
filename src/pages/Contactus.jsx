@@ -8,7 +8,9 @@ const Contactus = () => {
       <section className="service contact">
         {/* <h1 className="contac">contact us</h1> */}
         <Head title="contact us" />
-        <EmailService />
+        <div className="email-contact">
+          <EmailService />
+        </div>
       </section>
     </main>
   );

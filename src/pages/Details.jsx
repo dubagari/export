@@ -33,6 +33,7 @@ const Details = () => {
             </div>
             <div className="description">
               <h3>{productName}</h3>
+
               <p>{description}</p>
               {relatedProduct.map((item, index) => (
                 <ul key={index}>

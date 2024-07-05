@@ -1,9 +1,8 @@
 .hero-container1 {
   margin-top: 8rem;
   width: 80%;
-  margin: auto;
-  min-height: 100vh;
-  padding-top: 3rem;
+  margin: 0 auto;
+  padding: 3rem;
 }
 
 .hero1 {
@@ -29,7 +28,7 @@
 
 .hero1 .contain1 {
   flex: 1 1 35rem;
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .hero1 .contain {
@@ -40,7 +39,7 @@
 .hero1 .contain1 h3 {
   font-size: 2rem;
   color: #666;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 .hero1 .contain1 p {
   font-size: 1.2rem;
